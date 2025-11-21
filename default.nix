@@ -8,9 +8,8 @@ mnw.lib.wrap pkgs {
   desktopEntry = false;
 
   aliases = [
-    # "vim"
-    # "vi"
-    "fim"
+    "vim"
+    "vi"
   ];
 
   # luaFiles = [
