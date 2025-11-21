@@ -4,7 +4,7 @@
   ...
 }:
 mnw.lib.wrap pkgs {
-  appName = "fim";
+  appName = "neovim";
   desktopEntry = false;
 
   aliases = [
