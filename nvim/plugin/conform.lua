@@ -28,6 +28,7 @@ require("conform").setup({
     ["tex-fmt"] = {
       prepend_args = { "--nowrap", "--tabsize", "4" },
     },
+    stylua = { prepend_args = { "--indent-type", "Spaces", "--indent-width", "2" } },
   },
 
   format_on_save = function(bufnr)

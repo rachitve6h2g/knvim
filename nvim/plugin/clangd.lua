@@ -1,24 +1,24 @@
 require("clangd_extensions").setup({
-  ast = {
-    -- These are unicode, should be available in any font
-    role_icons = {
-      type = "🄣",
-      declaration = "🄓",
-      expression = "🄔",
-      statement = ";",
-      specifier = "🄢",
-      ["template argument"] = "🆃",
-    },
-    kind_icons = {
-      Compound = "🄲",
-      Recovery = "🅁",
-      TranslationUnit = "🅄",
-      PackExpansion = "🄿",
-      TemplateTypeParm = "🅃",
-      TemplateTemplateParm = "🅃",
-      TemplateParamObject = "🅃",
-    },
-    --[[ These require codicons (https://github.com/microsoft/vscode-codicons)
+	ast = {
+		-- These are unicode, should be available in any font
+		role_icons = {
+			type = "🄣",
+			declaration = "🄓",
+			expression = "🄔",
+			statement = ";",
+			specifier = "🄢",
+			["template argument"] = "🆃",
+		},
+		kind_icons = {
+			Compound = "🄲",
+			Recovery = "🅁",
+			TranslationUnit = "🅄",
+			PackExpansion = "🄿",
+			TemplateTypeParm = "🅃",
+			TemplateTemplateParm = "🅃",
+			TemplateParamObject = "🅃",
+		},
+		--[[ These require codicons (https://github.com/microsoft/vscode-codicons)
             role_icons = {
                 type = "",
                 declaration = "",
@@ -38,14 +38,14 @@ require("clangd_extensions").setup({
                 TemplateParamObject = "",
             }, ]]
 
-    highlights = {
-      detail = "Comment",
-    },
-  },
-  memory_usage = {
-    border = "none",
-  },
-  symbol_info = {
-    border = "none",
-  },
+		highlights = {
+			detail = "Comment",
+		},
+	},
+	memory_usage = {
+		border = "none",
+	},
+	symbol_info = {
+		border = "none",
+	},
 })
