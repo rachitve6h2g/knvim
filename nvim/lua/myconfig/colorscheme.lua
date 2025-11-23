@@ -116,8 +116,9 @@ require("catppuccin").setup({
   color_overrides = {},
   custom_highlights = {},
   default_integrations = true,
-  auto_integrations = true,
+  -- auto_integrations = true,
   integrations = {
+    aerial = true,
     cmp = true,
     gitsigns = true,
     nvimtree = true,
@@ -126,6 +127,14 @@ require("catppuccin").setup({
       enabled = true,
       indentscope_color = "",
     },
+    indent_blankline = {
+      enabled = true,
+      scope_color = "lavender",
+      colored_indent_levels = true,
+    },
+    rainbow_delimiters = true,
+    lsp_saga = true,
+    lsp_trouble = true,
     -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
   },
 })

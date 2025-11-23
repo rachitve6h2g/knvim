@@ -4,7 +4,7 @@ require("lualine").setup({
     component_separators = { left = "", right = "" },
     globalstatus = true,
     icons_enabled = true,
-    theme = "auto",
+    theme = "catppuccin",
     component_separators = "",
     section_separators = { left = "", right = "" },
   },
