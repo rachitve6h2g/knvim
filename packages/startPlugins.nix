@@ -37,6 +37,7 @@ let
     mini-comment # For comment declaration
     mini-surround # For surrounds
     mini-starter # for a nice banner
+    mini-icons # Just for extra icons
 
     neorg
     neorg-telescope
