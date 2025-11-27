@@ -15,6 +15,7 @@ require("conform").setup({
     },
 
     qml = { "qmlformat" },
+    sh = { "shfmt" },
   },
 
   -- For gleam
@@ -32,6 +33,9 @@ require("conform").setup({
     },
     stylua = { prepend_args = { "--indent-type", "Spaces", "--indent-width", "2" } },
     qmlformat = { prepend_args = { "--indent-width", "2" } },
+    shfmt = {
+      prepend_args = { "-i", "2" },
+    },
   },
 
   format_on_save = function(bufnr)

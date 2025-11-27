@@ -31,6 +31,8 @@ let
     systemd-language-server # Iykyk
 
     nur.repos.Freed-Wu.mutt-language-server # for neomutt
+
+    shfmt
   ];
 in
 packages
